@@ -1,0 +1,4 @@
+{
+  "template": "template/js/books.js",
+  "item.book": "template/block/books/item.json"
+}

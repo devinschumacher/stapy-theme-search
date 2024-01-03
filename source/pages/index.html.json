@@ -1,0 +1,9 @@
+{
+  "content": "content/index.html",
+
+  "block.search": "template/block/search.html",
+  "block.books": "template/block/books.html",
+
+  "meta_title": "Stapy Client side search engine",
+  "meta_description": "Client side search engine with Fuse.js"
+}

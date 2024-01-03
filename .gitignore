@@ -1,0 +1,13 @@
+**/__pycache__
+venv
+tests
+web
+build.py
+stapy.py
+plugins/cache.py
+plugins/cssmin.py
+plugins/date.py
+plugins/editor.py
+plugins/htmltidy.py
+plugins/menu.py
+plugins/pages.py

@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: normal 16px -apple-system,BlinkMacSystemFont,"Segoe UI","Liberation Sans",Helvetica,Arial,sans-serif;
+    background: #242933;
+    color: #ECEFF4;
+}
+
+footer {
+    background: #2E3440;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#header-content,
+#main-content,
+#footer-content {
+    margin: auto;
+    max-width: 1000px;
+}
+
+#main-content {
+    padding: 2rem 1rem;
+    min-height: 600px;
+}
+
+#header-content {
+    padding: 2rem 1rem 0 1rem;
+    text-align: center;
+}
+
+#footer-content {
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: .9rem;
+}
+
+a {
+    color: #79B8CA;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+h1 {
+    margin: .5rem 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 1rem 0;
+}
+
+td, th {
+	border: 1px solid #434C5E;
+	text-align: left;
+	padding: .5rem;
+}
+
+th {
+	background: #4C566A;
+	color: #D8DEE9;
+}
+
+tr:nth-child(even) {
+	background: #2E3440;
+}
+
+td:nth-child(1) {
+  width: 12%;
+}
+
+td:nth-child(2) {
+  width: 68%;
+}
+
+td:nth-child(3) {
+  width: 20%;
+}
+
+td.center {
+    text-align: center;
+}
+
+.search {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.search input {
+    box-sizing: border-box;
+    width: 50%;
+    line-height: 30px;
+    font-size: 1.5rem;
+    color: #ECEFF4;
+    padding: 10px;
+    border: 1px solid #434C5E;
+    background: #2E3440;
+    box-shadow: 0 0 2px 0 #000;
+    outline: none;
+}
+
+.search input::placeholder {
+  color: #434C5E;
+}
+
+@media (max-width: 48rem) {
+    .search input {
+        width: 100%;
+    }
+}

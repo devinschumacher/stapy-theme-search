@@ -1,0 +1,25 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ lang }}" xml:lang="{{ lang }}">
+    <head>
+        {% block.head %}
+    </head>
+    <body>
+        <header>
+            <div id="header-content">
+                {% block.header %}
+            </div>
+        </header>
+        <main>
+            <div id="main-content">
+                {% content %}
+            </div>
+        </main>
+        <footer>
+            <div id="footer-content">
+                {% block.footer %}
+            </div>
+        </footer>
+        <script type="text/javascript" src="{{ url }}js/books.js"></script>
+        <script type="text/javascript" src="{{ url }}js/search.js"></script>
+    </body>
+</html>

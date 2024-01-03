@@ -1,0 +1,10 @@
+{
+  "template": "template/default.html",
+
+  "block.head": "template/block/head.html",
+  "block.header": "template/block/header.html",
+  "block.footer": "template/block/footer.html",
+
+  "robots": "index,follow",
+  "lang": "en"
+}

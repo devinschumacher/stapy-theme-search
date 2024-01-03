@@ -1,0 +1,1 @@
+{"isbn": "{{ $isbn }}", "title": "{{ $title }}", "author": "{{ $author }}"}
